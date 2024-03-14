@@ -1,0 +1,17 @@
+Format-Specification: http://wiki.debian.org/Proposals/CopyrightFormat?action=recall&rev=143
+Upstream-Name: LliureX
+Upstream-Source: http://lliurex.net/
+
+Files: *
+Copyright: Copyright 2018 Juanma1980 <juanma1980@gmail.com>
+License: GPL-3+
+ 
+License: GPL-3+
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 3, or (at your option)
+   any later version.
+   on any Debian system you can find a copy of the newest GNU GPL at
+   '/usr/share/common-licenses/GPL'
+

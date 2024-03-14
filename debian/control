@@ -1,0 +1,14 @@
+Source: kwin-grayscale-effect
+Section: admin
+Priority: optional
+Maintainer: Equipo LliureX <lliurex@gva.es>
+Uploaders: M.Angel Juan <m.angel.juan@gmail.com>, Raul Rodrigo Segura <lliurex_devel3@edu.gva.es>, Hector Garcia Huerta <lliurex_devel1@edu.gva.es>, Daniel Duran Vecino <daduve@gmail.com>, Juanma Navarro <juanma1980@gmail.com>, Juan Ramon Pelegrina <juapesai@hotmail.com>
+Build-Depends: debhelper (>= 9.0)
+Standards-Version: 3.9.5
+Homepage: https://github.com/murat-cileli/kwin-grayscale-effect
+
+Package: kwin-grayscale-effect
+Architecture: all
+Depends: kwin-addons
+Description: Grayscale effect for KWin
+
