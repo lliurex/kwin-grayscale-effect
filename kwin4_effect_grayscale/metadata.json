@@ -6,7 +6,7 @@
                 "Name": "Murat Çileli"
             }
         ],
-        "Category": "Appearance",
+        "Category": "Accessibility",
         "Description": "Full screen grayscale effect.",
         "EnabledByDefault": true,
         "Icon": "preferences-system-windows-effect-dialog-parent",
