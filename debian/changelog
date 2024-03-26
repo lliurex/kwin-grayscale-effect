@@ -1,5 +1,5 @@
-kwin-grayscale-effect (0.2.0) jammy; urgency=medium
+kwin-grayscale-effect (0.2.0+0lliurex23) jammy; urgency=medium
 
-  * Initial release. 
+  * Set category to accessibility
 
  -- Juanma1980 <juanma1980@gmail.com>  Thu, 14 Mar 2024 11:16:55 +0100
