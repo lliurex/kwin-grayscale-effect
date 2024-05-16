@@ -7,13 +7,17 @@
         "Name": "Murat Çileli"
       }
     ],
-    "Category": "Appearance",
+    "Category": "Accessibility",
     "Description": "Full screen grayscale effect.",
-    "EnabledByDefault": true,
+    "Description[es]": "Muestra el escritorio en escala de grises.",
+    "Description[cs]": "Mostra l'escriptori en escala de grisos.",
+    "EnabledByDefault": false,
     "Icon": "preferences-system-windows-effect-dialog-parent",
     "Id": "kwin4_effect_grayscale",
     "License": "GPL",
     "Name": "Grayscale",
+    "Name[es]": "Escala de grises",
+    "Name[ca]": "Escala de grisos",
     "Version": "0.3.0"
   },
   "X-KDE-ConfigModule": "kcm_kwin4_genericscripted",
