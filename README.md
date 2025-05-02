@@ -7,8 +7,6 @@ Configurable grayscale effect for KWin window manager and KDE desktop environmen
 Either install manual by coping files or use `kpackagetool6`. It may work with `kpackagetool5` but it is untested.
 
 ## Automated
-
-
 1. [Download](https://github.com/lliurex/kwin-grayscale-effect/archive/refs/heads/plasma6.zip) or Git Pull
 2. Extract the zip archive, if downloaded.
 ```{.bash}
@@ -19,6 +17,7 @@ unzip kwin-grayscale-effect-plasma6.zip
 ```{.bash}
 kpackagetool6 --type KWin/Effect --install kwin6_effect_grayscale
 ```
+
 ## Manual
 1. [Download](https://github.com/lliurex/kwin-grayscale-effect/archive/refs/heads/plasma6.zip) or Git Pull
 2. Extract the zip archive, if downloaded.
@@ -30,12 +29,6 @@ unzip kwin-grayscale-effect-plasma6.zip
 
 ```{.bash}
 sudo cp -r kwin6_effect_grayscale /usr/share/kwin/effects/
-```
-
-5. Copy "kwin6_effect_grayscale/metadata.json" to "/usr/share/kservices5/kwin/", using e.g.
-
-```{.bash}
-sudo cp kwin6_effect_grayscale/metadata.json /usr/share/kservices5/kwin/
 ```
 
 # Testing 
