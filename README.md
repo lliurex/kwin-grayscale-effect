@@ -4,35 +4,47 @@ Configurable grayscale effect for KWin window manager and KDE desktop environmen
 
 # Installation
 
+Either install manual by coping files or use `kpackagetool6`. It may work with `kpackagetool5` but it is untested.
 
 ## Automated
-
-
-1. [Download](https://github.com/lliurex/kwin-grayscale-effect/archive/refs/heads/master.zip) or Git Pull
-2. Enter the repository directory, for example `cd kwin-grayscale-effect-master`
-3. Install the plugin
+1. [Download](https://github.com/lliurex/kwin-grayscale-effect/archive/refs/heads/plasma6.zip) or Git Pull
+2. Extract the zip archive, if downloaded.
+```{.bash}
+unzip kwin-grayscale-effect-plasma6.zip
+```
+3. Enter the repository directory, for example: `cd kwin-grayscale-effect-plasma6`
+4. Install the plugin
 ```{.bash}
 kpackagetool6 --type KWin/Effect --install kwin6_effect_grayscale
 ```
 
 ## Manual
-1. [Download](https://github.com/lliurex/kwin-grayscale-effect/archive/refs/heads/master.zip) or Git Pull
-2. Copy "kwin6_effect_grayscale" folder to "/usr/share/kwin/effects/", using e.g.
+1. [Download](https://github.com/lliurex/kwin-grayscale-effect/archive/refs/heads/plasma6.zip) or Git Pull
+2. Extract the zip archive, if downloaded.
+```{.bash}
+unzip kwin-grayscale-effect-plasma6.zip
+```
+3. Enter the repository directory, for example: `cd kwin-grayscale-effect-plasma6`
+4. Copy "kwin6_effect_grayscale" folder to "/usr/share/kwin/effects/", using e.g.
 
 ```{.bash}
 sudo cp -r kwin6_effect_grayscale /usr/share/kwin/effects/
 ```
 
-3. Copy "kwin6_effect_grayscale/metadata.json" to "/usr/share/kservices5/kwin/", using e.g.
+# Testing 
+To test it for the first time, open `System Settings` > `Desktop Behavior`. In there, open `Desktop Effects`. You should see `Grayscale` in the `Appearance` section. Toggle it a couple of times, and you'll see the grayscale effect at work.
 
+
+* Optionally you can run the following command: 
 ```{.bash}
-sudo cp kwin6_effect_grayscale/metadata.json /usr/share/kservices5/kwin/
+qdbus org.kde.KWin /Effects org.kde.kwin.Effects.loadEffect kwin4_effect_grayscale
 ```
 
-4. Add "kwin6_effect_grayscaleEnabled=true" to "[Plugins]" section in "~/.config/kwinrc" (as a normal user).
-   In case the [Plugins] section is missing from the kwinrc file, just add it.
-
-To test it for the first time, open `System Settings` > `Desktop Behavior`. In there, open `Desktop Effects`. You should see `Grayscale` in the `Appearance` section. Toggle it a couple of times, and you'll see the grayscale effect at work.
+* Another option is manually editing the config. Add `kwin6_effect_grayscaleEnabled=true` to `[Plugins]` section in "~/.config/kwinrc" (as a normal user).
+   In case the `[Plugins]` section is missing from the kwinrc file, just add it.
+```{.bash}
+kate  ~/.config/kwinrc
+```
 
 ### Known Quirks
 
