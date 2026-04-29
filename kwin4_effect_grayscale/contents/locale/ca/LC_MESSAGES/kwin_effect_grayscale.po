@@ -1,0 +1,36 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-29 10:42+0200\n"
+"PO-Revision-Date: 2026-04-29 10:47+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: entrada estÃ ndard:3
+msgid "Grayscale Effect Options"
+msgstr "Opcions de l'efecte"
+
+#: entrada estÃ ndard:6
+msgid "Apply inactive windows only"
+msgstr "Aplica només a finestres inactives"
+
+#: entrada estÃ ndard:9
+msgid "Exclude / skip panels"
+msgstr "Exclou/evita  panells"
+
+#: entrada estÃ ndard:13
+#, no-c-format
+msgid "Effect Strength (%)"
+msgstr "Força de l'efecte (%)"
