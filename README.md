@@ -1,3 +1,5 @@
+### KDE/Plasma 5, for Plasma 6 code go to the plasma6 branch.
+
 # KWin Grayscale Effect
 
 Configurable grayscale effect for KWin window manager and KDE desktop environment.
