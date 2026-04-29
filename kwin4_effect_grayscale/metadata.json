@@ -23,5 +23,6 @@
   "X-KDE-ConfigModule": "kcm_kwin4_genericscripted",
   "X-KDE-Ordering": 50,
   "X-KDE-PluginKeyword": "kwin4_effect_grayscale",
+  "X-KWin-Config-TranslationDomain": "kwin_effect_grayscale",
   "X-Plasma-API": "javascript"
 }
